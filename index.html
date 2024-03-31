@@ -6,121 +6,106 @@
         <title>Travel partners</title>
         <link rel="icon" type="image/png" href="/favicon.png"/>
         <link rel="stylesheet" type="text/css" href="styles/styles.css">
-        <link rel="stylesheet" type="text/css" href="styles/nav.css">
     </head>
 
     <body>
-        <div class="hero-image">
-            <figure>
-                <img
-                src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Viajes en la montaña"
-                height="450"
-                width="auto"
-                />
-            </figure>
-        </div>
 
-          <nav>
-            <div class="nav-container">
-                <h1>Travel Partners</h1>
-                <ul>
-                    <li><a href="#inicio_pagina">Inicio</a></li>
-                    <li><a href="#luxor">Luxor</a></li>
-                    <li><a href="#petra">Petra</a></li>
-                    <li><a href="#cerdeña">Cerdeña</a></li>
-                    <li><a href="#berlin">Berlin</a></li>
-                    <li><a href="#dublin">Dublin</a></li>
-                    <li><a href="#bucharest">Bucharest</a></li>   
-                </ul>
+        <header id="inicio_pagina">
+            <div class="hero-image">
+                <figure>
+                    <img
+                    src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Viajes en la montaña"
+                    height="450"
+                    width="auto"
+                    />
+                </figure>
             </div>
-          </nav>
-      
+
+            <nav>
+                <div class="nav-container">
+                    <h1>Travel Partners</h1>
+                    <ul>
+                        <li><a href="#inicio_pagina">Inicio</a></li>
+                        <li><a href="#luxor">Luxor</a></li>
+                        <li><a href="#petra">Petra</a></li>
+                        <li><a href="#cerdeña">Cerdeña</a></li>
+                        <li><a href="#berlin">Berlin</a></li>
+                        <li><a href="#dublin">Dublin</a></li>
+                        <li><a href="#bucharest">Bucharest</a></li>   
+                    </ul>
+                </div>
+            </nav>
+        </header>
           
-          <!-- Here is our page's main content -->
-          <main>
-            <h2>Destinos Turisticos!!</h2>
+        <main class="contenido">
+            <h2 id="titulo_destinos">NUESTROS DESTINOS</h2>
 
-            <article>
-                <section id="luxor">
-                    <h3>Luxor</h3>
-                    <a href="luxor.html"> 
-                        <img src="https://images.unsplash.com/photo-1587975844610-40f1ad10d07e?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen de Luxor" width="400" height="300"/>
-                    </a>
-                </section>
+            <section id="luxor" class="destino">
+                <a href="luxor.html"> 
+                    <img src="https://images.unsplash.com/photo-1587975844610-40f1ad10d07e?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen de Luxor"/>
+                    <div class="title_desc"><h3>Luxor</h3></div>
+                </a>
+            </section>
 
-                <section id="petra">
-                    <h3>Petra</h3>
-                    <a href="petra.html"> 
-                        <img src="https://images.unsplash.com/photo-1606210122158-eeb10e0823bf?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen de Petra" width="400" height="300"/>
-                    </a>
-                </section>
+            <section id="petra" class="destino">
+                <a href="petra.html"> 
+                    <img src="https://images.unsplash.com/photo-1606210122158-eeb10e0823bf?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen de Petra"/>
+                    <div class="title_desc"><h3>Petra</h3></div>
+                </a>
+            </section>
 
-                <section id="cerdeña">
-                    <h3>Cerdeña</h3>
-                    <a href="cerdeña.html"> 
-                        <img src="https://images.unsplash.com/photo-1552507953-884ab3636fb5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen de Sardinia" width="400" height="300"/>
-                    </a>
-                </section>
+            <section id="cerdeña" class="destino">
+                <a href="cerdeña.html"> 
+                    <img src="https://images.unsplash.com/photo-1552507953-884ab3636fb5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen de Sardinia"/>
+                    <div class="title_desc"><h3>Cerdeña</h3></div>
+                </a>
+            </section>
 
-                <section id="berlin">
-                    <h3>Berlin</h3>
-                    <a href="berlin.html"> 
-                        <img src="https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen panoramica de Berlin" width="400" height="300"/>
-                    </a>
-                </section>
+            <section id="berlin" class="destino">
+                <a href="berlin.html"> 
+                    <img src="https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen panoramica de Berlin"/>
+                    <div class="title_desc"><h3>Berlín</h3></div>
+                </a>
+            </section>
 
-                <section id="dublin">
-                    <h3>Dublin</h3>
-                    <a href="dublin.html"> 
-                        <img src="https://images.unsplash.com/photo-1616350290323-6ab0c84a541c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen de Dublin" width="400" height="300"/>
-                    </a>
-                </section>
+            <section id="dublin" class="destino">
+                <a href="dublin.html"> 
+                    <img src="https://images.unsplash.com/photo-1616350290323-6ab0c84a541c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen de Dublin"/>
+                    <div class="title_desc"><h3>Dublin</h3></div>
+                </a>
+            </section>
 
-                <section id="bucharest">
-                    <h3>Bucharest</h3>
-                    <a href="bucharest.html"> 
-                        <img src="https://images.unsplash.com/photo-1623656579028-200348835075?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen de Bucharest" width="400" height="300"/>
-                    </a>
-                </section>
+            <section id="bucharest" class="destino">
+                <a href="bucharest.html"> 
+                    <img src="https://images.unsplash.com/photo-1623656579028-200348835075?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen de Bucharest"/>
+                    <div class="title_desc"><h3>Bucharest</h3></div>
+                </a>
+            </section>
 
-            </article>
+        </main>
 
-            <article>
-              <h2>Acerca de nosotros</h2>
-        
-              <p>
-      
-                  Bienvenido a Travel Partners, tu puerta de entrada a aventuras inolvidables en Europa y Asia. <br><br>
-                  En Travel Partners, entendemos que cada viaje es una oportunidad única para explorar, descubrir y crear recuerdos duraderos. <br>
-                  Nos enorgullece ser tus aliados en este viaje, ofreciéndote experiencias auténticas y emocionantes en algunos de los destinos más fascinantes de Europa.<br>
-                  En Travel Partners, no solo ofrecemos viajes, sino también una experiencia completa. Desde el momento en que nos contactas hasta tu <br>
-                  regreso a casa, nos comprometemos a brindarte un servicio excepcional y atención personalizada en cada paso del camino.<br><br>
-      
-                  Únete a nosotros y descubre por qué somos la opción preferida para aquellos que buscan explorar Europa con autenticidad, comodidad y estilo.<br><br>
-      
-                  ¡Empieza tu próxima aventura con Travel Partners hoy mismo!
-      
-              </p>
- 
-              </article>
- 
-          </main>
+        <aside class="contenido">
 
-          <aside>
-            <h4>Relacionado</h4>
+            <h2>¿Quienes somos?</h2>
     
-            <ul>
-              <li><a href="https://www.exoticca.com/es/blog/2020/01/8-beneficios-de-viajar-que-te-haran-disfrutar-mas-de-la-vida/">Beneficios de viajar</a></li>
-              <li><a href="https://saltaconmigo.com/blog/2018/02/consejos-para-viajar-a-europa-tips/">Consejos para viajar a Europa</a></li>
-            </ul>
-          </aside>
-      
-          <!-- And here is our main footer that is used across all the pages of our website -->
-      
-          <footer>
+            <p>
+                Bienvenido a Travel Partners, tu puerta de entrada a aventuras inolvidables en Europa y Asia. <br><br>
+                En Travel Partners, entendemos que cada viaje es una oportunidad única para explorar, descubrir y crear recuerdos duraderos. <br>
+                Nos enorgullece ser tus aliados en este viaje, ofreciéndote experiencias auténticas y emocionantes en algunos de los destinos más fascinantes de Europa.<br>
+                En Travel Partners, no solo ofrecemos viajes, sino también una experiencia completa. Desde el momento en que nos contactas hasta tu <br>
+                regreso a casa, nos comprometemos a brindarte un servicio excepcional y atención personalizada en cada paso del camino.<br><br>
+    
+                Únete a nosotros y descubre por qué somos la opción preferida para aquellos que buscan explorar Europa con autenticidad, comodidad y estilo.<br><br>
+    
+                ¡Empieza tu próxima aventura con Travel Partners hoy mismo!
+            </p>
+
+        </aside>
+    
+        <footer>
             <p>Sitio Agencia Travel Partner desarrollado por Alahkdmovak Rua Cardona. Contacto: alahkdmovak.rua@udea.edu.co</p>
-          </footer>
+        </footer>
 
     </body>
 </html>
