@@ -5,13 +5,27 @@
         <meta name="author" content="Alahkdmovak Rua Cardona" />
         <title>Travel partners - Luxor</title>
         <link rel="icon" type="image/png" href="/favicon.png"/>
+        <link rel="stylesheet" type="text/css" href="styles/styles2.css">
     </head>
 
     <body>
       
         <header>
 
-          <nav>
+          <div class="image-container">
+            <figure>
+              <img
+              src="https://images.unsplash.com/photo-1632944398987-494eebe663be?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Viajes en la montaña"
+              height="450"
+              width="auto"
+              />
+            </figure>
+            <div class="titulo_principal"><h3>Luxor</h3></div>
+          </div>
+
+          <nav class="contenedor-nav">
+            <h1>Travel Partners</h1>
             <ul>
               <li><a href="index.html">Home</a></li>
               <li><a href="luxor.html">Luxor</a></li>
@@ -22,96 +36,121 @@
               <li><a href="bucharest.html">Bucharest</a></li>   
             </ul>
           </nav>
-          
-          <h1>Luxor</h1>
-
-          <figure>
-            <img
-            src="https://images.unsplash.com/photo-1632944398987-494eebe663be?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Viajes en la montaña"
-            height="450"
-            width="auto"
-             />
-             <figcaption>
-              Imagen Tomada de Unsplash.
-             </figcaption>
-          </figure>
             
         </header>
 
-        <!-- Here is our page's main content -->
         <main>
 
-          <article>
-          
-              <section>
-                  <p>
-                    Luxor es una ciudad egipcia situada en el banco oriental del río Nilo, conocida por ser el hogar de algunos de los monumentos más impresionantes del antiguo Egipto, como el Templo de Karnak y el Valle de los Reyes.
-                  </p>
-              </section>
+          <section class="contenido descripcion">
+            <h2>Descripciòn</h2>
+            <p class="primer-renglon">Adéntrate en el corazón de la antigua civilización egipcia con una visita a Luxor, una ciudad impregnada de historia, misterio y belleza.</p>
+               
+            <p class="completo">
+              Luxor es un tesoro arqueológico que cautiva a los viajeros con sus magníficos templos, tumbas reales y paisajes impresionantes. 
+              Desde los imponentes pilares del Templo de Karnak hasta los misteriosos pasillos del Valle de los Reyes, cada rincón de Luxor 
+              cuenta una historia fascinante que te transportará a través del tiempo. Únete a nosotros en un viaje inolvidable mientras 
+              exploramos los tesoros de esta legendaria ciudad egipcia y descubrimos los secretos de su glorioso pasado.
+            </p>
 
-              <section>
-                  <h2>Atractivos para visitar</h2>
-                 
-                  <ul>
-                      <li><a>Templo de Karnak</a></li>
-                      <li><a>Valle de los Reyes</a></li>
-                      <li><a>Templo de Hatshepsut</a></li>
-                      <li><a>Templo de Luxor</a></li>
-                      <li><a>Colosos de Memnón</a></li>
-                  </ul>
-              </section>
+            <input type="checkbox" id="btn" />
+            <label for="btn"></label>
 
-              <section>
-                <iframe 
-                  width="560" 
-                  height="315" 
-                  src="https://www.youtube.com/embed/Rb9gLpdb2nc?si=t6VEIHdJO7pTDVAC" 
-                  title="YouTube video player" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  allowfullscreen>
-                </iframe>
-              </section>
+              <h2>Atractivos para visitar</h2>
+              
+              <ul>
+                  <li><a>Templo de Karnak</a></li>
+                  <li><a>Valle de los Reyes</a></li>
+                  <li><a>Templo de Hatshepsut</a></li>
+                  <li><a>Templo de Luxor</a></li>
+                  <li><a>Colosos de Memnón</a></li>
+              </ul>
 
-              <section>
-                  <h2>Itinerario de 5 días y 4 noches:</h2>
-                  <ul>
-                      <li><a>Día 1: Visita al Templo de Karnak y paseo por el mercado local.</a></li>
-                      <li><a>Día 2: Excursión al Valle de los Reyes y al Templo de Hatshepsut.</a></li>
-                      <li><a>Día 3: Tour en globo aerostático sobre Luxor al amanecer y visita al Templo de Luxor.</a></li>
-                      <li><a>Día 4: Crucero por el río Nilo y cena con espectáculo folclórico.</a></li>
-                      <li><a>Día 5: Tiempo libre para compras y despedida de Luxor.</a></li>
-                  </ul>
-              </section>
-  
-              <section>
-                <h2>Costos de Viaje:</h2>
+            <iframe 
+              width="560" 
+              height="315" 
+              src="https://www.youtube.com/embed/Rb9gLpdb2nc?si=t6VEIHdJO7pTDVAC" 
+              title="YouTube video player" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen>
+            </iframe>
+          </section>
 
-                <ul>
-                    <li><a>Para una persona: Entre $1200 y $1800 USD.</a></li>
-                    <li><a>Para dos personas: Entre $2000 y $3000 USD.</a></li>
-                </ul>
+          <section class="contenido itinierario">
+              <h2>Itinerario de 5 días y 4 noches:</h2>
+              <ul>
+                <li>
+                  <div class="titulo">
+                    <h4>Día 1: Visita al Templo de Karnak y paseo por el mercado local.</h4>
+                    <span class="expandible">
+                        <p>Comienza tu exploración de Luxor con una visita al impresionante Templo de Karnak, uno de los complejos de templos más grandes y espectaculares del mundo antiguo. Déjate maravillar por las columnas gigantes, los obeliscos y los relieves que adornan este majestuoso sitio arqueológico. Después, sumérgete en la vida cotidiana de Luxor con un paseo por el bullicioso mercado local, donde podrás encontrar una variedad de productos tradicionales, desde especias exóticas hasta artesanías únicas. Disfruta de una experiencia auténtica mientras te sumerges en la cultura y la historia de esta fascinante ciudad egipcia.</p>
+                    </span>
+                  </div>
+                </li>
+              
+                <li>
+                    <div class="titulo">
+                      <h4>Día 2: Excursión al Valle de los Reyes y al Templo de Hatshepsut.</h4>
+                      <span class="expandible">
+                          <p>Embárcate en una emocionante excursión al Valle de los Reyes, donde podrás explorar las tumbas de los faraones del Nuevo Reino, incluida la famosa tumba de Tutankamón. Descubre la belleza y la intriga de este antiguo cementerio real mientras aprendes sobre la historia y la religión del Antiguo Egipto. Luego, visita el impresionante Templo de Hatshepsut, una obra maestra de la arquitectura antigua dedicada a la única mujer que gobernó como faraón de Egipto. Disfruta de un día lleno de descubrimientos mientras exploras los tesoros del Valle de los Reyes y los majestuosos monumentos de Luxor.</p>
+                      </span>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="titulo">
+                      <h4>Día 3: Tour en globo aerostático sobre Luxor al amanecer y visita al Templo de Luxor.</h4>
+                      <span class="expandible">
+                          <p>Experimenta la belleza de Luxor desde las alturas con un emocionante tour en globo aerostático al amanecer. Disfruta de vistas panorámicas del río Nilo, los campos agrícolas y los monumentos antiguos mientras flotas silenciosamente sobre la ciudad. Después, continúa tu exploración con una visita al impresionante Templo de Luxor, un antiguo templo dedicado a los dioses Amón y Mut. Descubre los majestuosos pilares, las estatuas colosales y los relieves detallados que adornan este magnífico sitio arqueológico. Vive una experiencia inolvidable mientras te sumerges en la belleza y el misterio de Luxor.</p>
+                      </span>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="titulo">
+                      <h4>Día 4: Crucero por el río Nilo y cena con espectáculo folclórico.</h4>
+                      <span class="expandible">
+                          <p>Embárcate en un relajante crucero por el río Nilo y disfruta de vistas panorámicas de Luxor desde el agua. Navega por el majestuoso río mientras te relajas y contemplas la belleza de los paisajes circundantes. Por la noche, disfruta de una cena especial acompañada de un espectáculo folclórico egipcio a bordo del barco. Déjate cautivar por la música, la danza y el encanto de la cultura egipcia mientras saboreas deliciosos platos locales y te sumerges en una experiencia única en Luxor.</p>
+                      </span>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="titulo">
+                      <h4>Día 5: Tiempo libre para compras y despedida de Luxor.</h4>
+                      <span class="expandible">
+                          <p>Aprovecha tu último día en Luxor para disfrutar de tiempo libre y explorar la ciudad a tu propio ritmo. Dedica la mañana a realizar algunas compras en los mercados locales, donde encontrarás una variedad de souvenirs, artesanías y productos tradicionales egipcios. Después, disfruta de un almuerzo relajante en uno de los encantadores cafés o restaurantes de la ciudad. Por la tarde, despídete de Luxor con una última mirada a sus impresionantes monumentos y paisajes antes de continuar tu viaje hacia nuevas aventuras.</p>
+                      </span>
+                    </div>
+                </li>
+              
+              </ul>
+          </section>
 
-                <p>
-                    Estos precios incluyen alojamiento en hoteles de categoría media, transporte local y entre ciudades, comidas en restaurantes promedio y entradas a las principales atracciones turísticas.
-                </p>
+          <section class="contenido costos">
+            <h2>Costos de Viaje:</h2>
 
-                <p>
-                    Para adquirir nuestros servicos o para mayor informacion acerca de los planes de viaje, Comunicate con nosotros en nuestra linea de atencion al cliente al número (+39) 442 23 68
-                </p>
+            <ul>
+                <li><a>Para una persona: Entre $1200 y $1800 USD.</a></li>
+                <li><a>Para dos personas: Entre $2000 y $3000 USD.</a></li>
+            </ul>
 
-              </section>
+            <p>
+                Estos precios incluyen alojamiento en hoteles de categoría media, transporte local y entre ciudades, comidas en restaurantes promedio y entradas a las principales atracciones turísticas.
+            </p>
 
-            </article>
-    
+            <p>
+                Para adquirir nuestros servicos o para mayor informacion acerca de los planes de viaje, Comunicate con nosotros en nuestra linea de atencion al cliente al número (+39) 442 23 68
+            </p>
+
+          </section>
+
         </main>
+
       
-          <!-- And here is our main footer that is used across all the pages of our website -->
-      
-          <footer>
-            <p>Sitio Agencia Travel Partner desarrollado por Alahkdmovak Rua Cardona. Contacto: alahkdmovak.rua@udea.edu.co</p>
-          </footer>
+        <footer>
+          <p>Por Alahkdmovak Rua Cardona. <strong>Contacto: alahkdmovak.rua@udea.edu.co</strong></p>
+      </footer>
 
     </body>
 </html>

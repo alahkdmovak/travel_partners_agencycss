@@ -5,12 +5,26 @@
         <meta name="author" content="Alahkdmovak Rua Cardona" />
         <title>Travel partners - Cerdeña</title>
         <link rel="icon" type="image/png" href="/favicon.png"/>
+        <link rel="stylesheet" type="text/css" href="styles/styles2.css">
     </head>
 
     <body>
       
         <header>
-            <nav>
+            <div class="image-container">  
+                <figure>
+                    <img
+                    src="https://images.unsplash.com/photo-1591103000599-50f5b4ec7d3d?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Viajes en la montaña"
+                    height="450"
+                    width="auto"
+                    />
+                </figure>
+                <div class="titulo_principal"><h3>Cerdeña</h3></div>
+            </div>
+
+            <nav class="contenedor-nav">
+                <h1>Travel Partners</h1>
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="luxor.html">Luxor</a></li>
@@ -22,92 +36,116 @@
                 </ul>
             </nav>
 
-            <h1>Cerdeña</h1>  
-
-            <figure>
-                <img
-                src="https://images.unsplash.com/photo-1591103000599-50f5b4ec7d3d?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Viajes en la montaña"
-                height="450"
-                width="auto"
-                 />
-                 <figcaption>
-                    Imagen Tomada de Unsplash.
-                 </figcaption>
-             </figure>
-
           </header>
         
-        <!-- Here is our page's main content -->
         <main>
+            <section class="contenido descripcion">
+                <h2>Descripciòn</h2>
+                <p class="primer-renglon">Bienvenido a Cerdeña, un destino que cautiva con sus playas de arena blanca, aguas cristalinas y una rica historia que se remonta a miles de años.</p>
+                   
+                <p class="completo">
+                    Situada en el corazón del mar Mediterráneo, esta isla italiana ofrece a los viajeros una experiencia única donde la naturaleza,
+                    la cultura y la gastronomía se fusionan para crear recuerdos inolvidables. Desde la majestuosidad de sus sitios arqueológicos 
+                    hasta la calidez de su hospitalidad local, Cerdeña te espera con los brazos abiertos para una aventura que despertará todos tus 
+                    sentidos y te dejará maravillado con su belleza atemporal.
+                </p>
 
-            <article>
-            
-                <section>
-                    <p>
-                    La Gran Cerdeña.... isla paradisíaca en el Mediterráneo, famosa por sus playas de aguas cristalinas, su gastronomía única y sus sitios arqueológicos.
-                    </p>
-                </section>
+                <input type="checkbox" id="btn" />
+                <label for="btn"></label>
 
-                <section>
-                    <h2>Atractivos para visitar</h2>
+                <h2>Atractivos para visitar</h2>
 
-                    <ul>
-                        <li><a>Playa La Pelosa</a></li>
-                        <li><a>Costa Esmeralda</a></li>
-                        <li><a>Parque Nacional del Archipiélago de La Maddalena</a></li>
-                        <li><a>Nuraghe Su Nuraxi (Sitio Arqueológico)</a></li>
-                        <li><a>Cueva del Bue Marino</a></li>
-                    </ul>
-                </section>
+                <ul>
+                    <li><a>Playa La Pelosa</a></li>
+                    <li><a>Costa Esmeralda</a></li>
+                    <li><a>Parque Nacional del Archipiélago de La Maddalena</a></li>
+                    <li><a>Nuraghe Su Nuraxi (Sitio Arqueológico)</a></li>
+                    <li><a>Cueva del Bue Marino</a></li>
+                </ul>
 
-                <section>
-                    <iframe 
-                        width="560" 
-                        height="315" 
-                        src="https://www.youtube.com/embed/il9A_K3m3dw?si=bChZzujdten_GWHp" 
-                        title="YouTube video player" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        allowfullscreen>
-                    </iframe>
-                </section>
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/il9A_K3m3dw?si=bChZzujdten_GWHp" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </section>
 
-                <section>
-                    <h2>Itinerario de 5 días y 4 noches:</h2>
-                    <ul>
-                        <li><a>Día 1: Relájate en la playa La Pelosa y disfruta del sol.</a></li>
-                        <li><a>Día 2: Excursión en barco por la Costa Esmeralda y visita a la isla de Caprera.</a></li>
-                        <li><a>Día 3: Exploración del Parque Nacional del Archipiélago de La Maddalena.</a></li>
-                        <li><a>Día 4: Visita al sitio arqueológico de Nuraghe Su Nuraxi y degustación de la gastronomía local.</a></li>
-                        <li><a>Día 5: Último día en la playa o actividades opcionales.</a></li>
-                    </ul>
-                    </section>
+            <section class="contenido itinierario">
+                <h2>Itinerario de 5 días y 4 noches:</h2>
 
-                <section>
+                <ul>
+                    <li>
+                        <div class="titulo">
+                            <h4>Día 1: Relájate en la playa La Pelosa y disfruta del sol.</h4>
+                            <span class="expandible">
+                                <p>Comienza tu viaje a Cerdeña con un día de relajación en la espectacular playa La Pelosa. Sumérgete en las aguas cristalinas del mar Mediterráneo, relájate en la suave arena blanca y disfruta del cálido sol mientras contemplas las impresionantes vistas del paisaje costero. Déjate llevar por la tranquilidad de este paraíso natural y recarga energías para las aventuras que te esperan en los próximos días.</p>
+                            </span>
+                        </div>
+                    </li>
 
-                    <h2>Costos de Viaje:</h2>
+                    <li>
+                        <div class="titulo">
+                            <h4>Día 2: Excursión en barco por la Costa Esmeralda y visita a la isla de Caprera.</h4>
+                            <span class="expandible">
+                                <p>Embárcate en una emocionante excursión en barco por la impresionante Costa Esmeralda y descubre la belleza natural de sus aguas cristalinas y sus espectaculares formaciones rocosas. Nuestro recorrido incluye una visita a la encantadora isla de Caprera, donde podrás explorar sus playas vírgenes y descubrir la historia de su famoso residente, Giuseppe Garibaldi. Disfruta de un día lleno de aventuras y paisajes impresionantes mientras exploras las maravillas de la Costa Esmeralda.</p>
+                            </span>
+                        </div>
+                    </li>
 
-                    <ul>
-                        <li><a>Para una persona: Entre $1200 y $1800 USD.</a></li>
-                        <li><a>Para dos personas: Entre $2000 y $3000 USD.</a></li>
-                    </ul>
+                    <li>
+                        <div class="titulo">
+                            <h4>Día 3: Exploración del Parque Nacional del Archipiélago de La Maddalena.</h4>
+                            <span class="expandible">
+                                <p>Descubre la increíble biodiversidad y la belleza natural del Parque Nacional del Archipiélago de La Maddalena en un emocionante recorrido guiado. Navega por las aguas cristalinas del mar Tirreno y explora las hermosas islas y calas del archipiélago. Conoce la fascinante historia y la rica vida marina de la región mientras exploras sus playas vírgenes y sus impresionantes formaciones rocosas. Disfruta de un día de aventuras al aire libre mientras descubres los tesoros escondidos del parque nacional.</p>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="titulo">
+                            <h4>Día 4: Visita al sitio arqueológico de Nuraghe Su Nuraxi y degustación de la gastronomía local.</h4>
+                            <span class="expandible">
+                                <p>Sumérgete en la fascinante historia de Cerdeña con una visita al sitio arqueológico de Nuraghe Su Nuraxi, declarado Patrimonio de la Humanidad por la UNESCO. Explora las antiguas ruinas de este impresionante complejo nurágico y aprende sobre la civilización que lo construyó hace miles de años. Después, deleita tu paladar con una degustación de la deliciosa gastronomía local, que incluye platos tradicionales como la pasta fresca, el cordero asado y el queso pecorino. Disfruta de una experiencia culinaria única mientras saboreas los sabores auténticos de Cerdeña.</p>
+                            </span>
+                        </div>
+                    </li>
 
-                    <p>
-                        Estos precios incluyen alojamiento en hoteles de categoría media, transporte local y entre ciudades, comidas en restaurantes promedio y entradas a las principales atracciones turísticas.
-                    </p>
+                    <li>
+                        <div class="titulo">
+                            <h4>Día 5: Último día en la playa o actividades opcionales.</h4>
+                            <span class="expandible">
+                                <p>Aprovecha al máximo tu último día en Cerdeña con un día de relax en la playa o participando en emocionantes actividades opcionales. Ya sea que elijas tomar el sol en una de las impresionantes playas de la isla o aventurarte en actividades como senderismo, buceo o excursiones en jeep, nuestro equipo estará encantado de ayudarte a organizar la experiencia perfecta para ti. Disfruta de un día lleno de diversión y aventuras mientras te despides de Cerdeña con recuerdos inolvidables de tu tiempo en esta hermosa isla.</p>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
 
-                </section>
+            </section>
 
-            </article>
+            <section class="contenido costos">
+
+                <h2>Costos de Viaje:</h2>
+
+                <ul>
+                    <li><a>Para una persona: Entre $1200 y $1800 USD.</a></li>
+                    <li><a>Para dos personas: Entre $2000 y $3000 USD.</a></li>
+                </ul>
+
+                <p>
+                    Estos precios incluyen alojamiento en hoteles de categoría media, transporte local y entre ciudades, comidas en restaurantes promedio y entradas a las principales atracciones turísticas.
+                </p>
+
+            </section>
     
         </main>
       
-          <!-- And here is our main footer that is used across all the pages of our website -->
       
-          <footer>
-            <p>Sitio Agencia Travel Partner desarrollado por Alahkdmovak Rua Cardona. Contacto: alahkdmovak.rua@udea.edu.co</p>
-          </footer>
+        <footer>
+            <p>Por Alahkdmovak Rua Cardona. <strong>Contacto: alahkdmovak.rua@udea.edu.co</strong></p>
+        </footer>
 
     </body>
 </html>

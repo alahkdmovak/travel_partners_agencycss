@@ -1,0 +1,165 @@
+body {
+    display: grid;
+    font-family: Arial, sans-serif;
+    grid-template-rows: 7fr 18fr 1fr;
+    background-color: beige;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: relative;
+    grid-row:1;
+    background-color: white;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    height: 300px;
+}
+
+.titulo_principal {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, 40%);
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+
+.contenedor-nav {
+    display: flex;
+    align-items: center; 
+    background-color: transparent;
+    position: fixed;
+    color: aqua;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.contenedor-nav h1 {
+    margin-left: 50px;
+    margin-right: 500px;
+}
+
+.contenedor-nav ul li {
+    display: inline;
+    padding: 10px 20px;
+}
+
+.contenedor-nav ul li a {
+    text-decoration: none;
+    color: aqua; 
+}
+
+.contenedor-nav ul li a:hover {
+    font-size: 120%; 
+    font-weight: 750;
+    cursor: pointer;
+    color: black; 
+}
+
+main {
+    display: grid;
+    grid-row:2;
+    background-color: beige;
+    grid-template-rows: 1fr 3fr 1fr;
+    max-height: 1000px;
+    max-width: auto; 
+}
+
+.contenido {
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.descripcion {
+    grid-row:1;
+    background-color: beige;
+}
+
+.itinerario {
+    grid-row:2;
+    background-color: beige;
+}
+
+.costos {
+    grid-row:3;
+    background-color: beige;
+}
+
+.completo {
+    display: none;
+}
+
+input[type="checkbox"] {
+    height: 1em;
+    display: block;
+    appearance: none;
+}
+
+label {
+    font-family: "Arial", sans-serif;
+    font-weight: 750;
+    font-size: 15px;
+    padding: 1em;
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+label:before {
+    content: "Leer más";
+}
+
+label:hover {
+    background-color: white;
+    color: aqua;
+}
+
+input[type="checkbox"]:checked ~ label:before {
+    content: "Leer menos";
+}
+
+.completo:has(~ input[type="checkbox"]:checked) {
+    display: inline;
+}
+
+.expandible{ 
+    display: none;
+ }
+
+.titulo:hover span{ 
+    display: block; 
+}
+
+.titulo:hover h4{
+    color: aqua;
+    cursor: none;
+}
+
+footer {
+    grid-row:3;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: gray;
+}

@@ -5,12 +5,26 @@
         <meta name="author" content="Alahkdmovak Rua Cardona" />
         <title>Travel partners - Dublin</title>
         <link rel="icon" type="image/png" href="/favicon.png"/>
+        <link rel="stylesheet" type="text/css" href="styles/styles2.css">
     </head>
 
     <body>
       
         <header>
-          <nav>
+          <div class="image-container">
+            <figure>
+              <img
+              src="https://images.unsplash.com/photo-1602797882193-51cb0e037534?q=80&w=1773&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Viajes en la montaña"
+              height="450"
+              width="auto"
+              />
+            </figure>
+            <div class="titulo_principal"><h3>Dublin</h3></div>
+          </div>
+
+          <nav class="contenedor-nav">
+            <h1>Travel Partners</h1>
             <ul>
               <li><a href="index.html">Inicio</a></li>
               <li><a href="luxor.html">Luxor</a></li>
@@ -19,98 +33,120 @@
               <li><a href="berlin.html">Berlin</a></li>
               <li><a href="dublin.html">Dublin</a></li>
               <li><a href="bucharest.html">Bucharest</a></li>   
-          </ul>
+            </ul>
           </nav>
-          
-          <h1>Dublin</h1>    
-          
-          <figure>
-            <img
-            src="https://images.unsplash.com/photo-1602797882193-51cb0e037534?q=80&w=1773&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Viajes en la montaña"
-            height="450"
-            width="auto"
-             />
-             <figcaption>
-              Imagen Tomada de Unsplash.
-             </figcaption>
-         </figure>
 
         </header>
 
-        <!-- Here is our page's main content -->
         <main>
 
-          <article>
-          
-              <section>
-                  <p>
-                    Dublín, la capital de Irlanda, es una ciudad con una rica historia, una animada escena cultural y una vibrante vida nocturna. Con sus pintorescas calles, pubs tradicionales y una cálida hospitalidad, Dublín atrae a visitantes de todo el mundo.
-                  </p>
-              </section>
+            <section class="contenido descripcion">
+              <h2>Descripciòn</h2>
+                <p class="primer-renglon">Bienvenido a Dublín, la animada capital de Irlanda que combina la rica historia con una vibrante escena cultural y una hospitalidad cálida y acogedora.</p>
+                   
+                <p class="completo">
+                  Situada a orillas del río Liffey, Dublín es una ciudad que cautiva con sus impresionantes monumentos históricos, 
+                  sus encantadores barrios y su animado ambiente. Desde los majestuosos edificios georgianos hasta los acogedores pubs 
+                  tradicionales, cada rincón de Dublín cuenta una historia única y ofrece una experiencia inolvidable. 
+                  Únete a nosotros en un emocionante recorrido por esta ciudad llena de vida y descubre todo lo que Dublín tiene para ofrecer.
+                </p>
 
-              <section>
-                  <h2>Atractivos para visitar</h2>
+                <input type="checkbox" id="btn" />
+                <label for="btn"></label>
 
-                  <ul>
-                      <li><a>Trinity College y la Biblioteca Antigua</a></li>
-                      <li><a>Temple Bar</a></li>
-                      <li><a>Catedral de San Patricio</a></li>
-                      <li><a>Guinness Storehouse</a></li>
-                      <li><a>Museo Nacional de Irlanda</a></li>
-                  </ul>
-              </section>
+              <h2>Atractivos para visitar</h2>
 
-              <section>
-                <iframe 
-                  width="560" 
-                  height="315" 
-                  src="https://www.youtube.com/embed/o-lgr7B2kqI?si=HNX7JBTPnYPEO0ea" 
-                  title="YouTube video player" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  allowfullscreen>
-                </iframe>
-              </section>
+              <ul>
+                  <li><a>Trinity College y la Biblioteca Antigua</a></li>
+                  <li><a>Temple Bar</a></li>
+                  <li><a>Catedral de San Patricio</a></li>
+                  <li><a>Guinness Storehouse</a></li>
+                  <li><a>Museo Nacional de Irlanda</a></li>
+              </ul>
 
-              <section>
-                  <h2>Itinerario de 5 días y 4 noches:</h2>
-                  <ul>
-                      <li><a>Día 1: Recorrido por el Trinity College y la Biblioteca Antigua, seguido de un paseo por Temple Bar.</a></li>
-                      <li><a>Día 2: Visita a la Catedral de San Patricio y paseo por el barrio de Merrion Square.</a></li>
-                      <li><a>Día 3: Tour por la fábrica de cerveza Guinness Storehouse y degustación de cerveza.</a></li>
-                      <li><a>Día 4: Excursión al Parque Phoenix y visita a museos como el Museo Nacional de Irlanda.</a></li>
-                      <li><a>Día 5: Últimas compras y despedida de Dublín.</a></li>
-                  </ul>
-              </section>
-  
-              <section>
-                <h2>Costos de Viaje:</h2>
+              <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/o-lgr7B2kqI?si=HNX7JBTPnYPEO0ea" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+              </iframe>
+            </section>
 
+            <section class="contenido itinierario">
+                <h2>Itinerario de 5 días y 4 noches:</h2>
                 <ul>
-                    <li><a>Para una persona: Entre $1000 y $1500 USD.</a></li>
-                    <li><a>Para dos personas: Entre $2000 y $2500 USD.</a></li>
+                  <li>
+                    <div class="titulo">
+                      <h4>Día 1: Recorrido por el Trinity College y la Biblioteca Antigua, seguido de un paseo por Temple Bar.</h4>
+                      <span class="expandible">
+                          <p>Sumérgete en la rica historia de Dublín con un recorrido guiado por el impresionante Trinity College, la universidad más antigua de Irlanda. Descubre los tesoros de la Biblioteca Antigua, que alberga el famoso Libro de Kells, una obra maestra medieval. Después, déjate cautivar por el ambiente animado de Temple Bar, conocido por sus pubs tradicionales, galerías de arte y boutiques únicas. Disfruta de la música en vivo y la vibrante cultura de este icónico barrio mientras te sumerges en la auténtica experiencia dublinesa.</p>
+                      </span>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="titulo">
+                      <h4>Día 2: Visita a la Catedral de San Patricio y paseo por el barrio de Merrion Square.</h4>
+                      <span class="expandible">
+                          <p>Explora la impresionante arquitectura gótica de la Catedral de San Patricio, la iglesia más grande de Irlanda y un símbolo de la fe cristiana en Dublín. Descubre la rica historia y las historias intrigantes que rodean esta majestuosa catedral mientras exploras sus impresionantes vitrales y sus antiguas criptas. Después, pasea por el encantador barrio de Merrion Square, donde encontrarás elegantes casas georgianas, parques serenos y monumentos históricos. Disfruta de un día lleno de descubrimientos culturales mientras exploras los tesoros ocultos de Dublín.</p>
+                      </span>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="titulo">
+                      <h4>Día 3: Tour por la fábrica de cerveza Guinness Storehouse y degustación de cerveza.</h4>
+                      <span class="expandible">
+                          <p>Sumérgete en la cultura cervecera de Dublín con un tour guiado por la famosa fábrica de cerveza Guinness Storehouse. Descubre los secretos de la elaboración de la cerveza y aprende sobre la historia de esta icónica marca irlandesa mientras exploras sus emocionantes exposiciones interactivas. Después, disfruta de una degustación de cerveza fresca en el Gravity Bar, donde podrás contemplar las impresionantes vistas panorámicas de la ciudad. Vive una experiencia única mientras brindas por la buena salud y la hospitalidad irlandesa.</p>
+                      </span>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="titulo">
+                      <h4>Día 4: Excursión al Parque Phoenix y visita a museos como el Museo Nacional de Irlanda.</h4>
+                      <span class="expandible">
+                          <p>Escapa del bullicio de la ciudad y sumérgete en la naturaleza en el Parque Phoenix, uno de los parques urbanos más grandes de Europa. Disfruta de un relajante paseo entre frondosos árboles, lagos serenos y jardines exuberantes mientras te conectas con la belleza natural de Dublín. Después, explora los fascinantes museos de la ciudad, como el Museo Nacional de Irlanda, donde encontrarás exposiciones que cuentan la historia y la cultura del país a lo largo de los siglos. Descubre los tesoros culturales de Dublín mientras te sumerges en la rica historia y el patrimonio de Irlanda.</p>
+                      </span>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="titulo">
+                      <h4>Día 5: Últimas compras y despedida de Dublín.</h4>
+                      <span class="expandible">
+                        Aprovecha tu último día en Dublín para disfrutar de unas últimas compras en las encantadoras tiendas y boutiques de la ciudad. Explora las calles animadas y descubre tesoros ocultos mientras buscas recuerdos únicos para llevar a casa. Ya sea que estés buscando prendas de lana irlandesa, obras de arte locales o productos gourmet, encontrarás una amplia variedad de opciones para satisfacer tus gustos. Después de tus compras, tómate un momento para reflexionar sobre tus aventuras en Dublín y despedirte de esta ciudad vibrante con gratitud y alegría por los recuerdos que has creado. ¡Hasta la próxima, Dublín!</p>
+                      </span>
+                    </div>
                 </ul>
+            </section>
 
-                <p>
-                    Estos precios incluyen alojamiento en hoteles de categoría media, transporte local y entre ciudades, comidas en restaurantes promedio y entradas a las principales atracciones turísticas.
-                </p>
+            <section class="contenido costos">
+              <h2>Costos de Viaje:</h2>
 
-                <p>
-                    Para adquirir nuestros servicos o para mayor informacion acerca de los planes de viaje, Comunicate con nosotros en nuestra linea de atencion al cliente al número (+39) 442 23 68
-                </p>
+              <ul>
+                  <li><a>Para una persona: Entre $1000 y $1500 USD.</a></li>
+                  <li><a>Para dos personas: Entre $2000 y $2500 USD.</a></li>
+              </ul>
 
-              </section>
+              <p>
+                  Estos precios incluyen alojamiento en hoteles de categoría media, transporte local y entre ciudades, comidas en restaurantes promedio y entradas a las principales atracciones turísticas.
+              </p>
 
-            </article>
-    
+              <p>
+                  Para adquirir nuestros servicos o para mayor informacion acerca de los planes de viaje, Comunicate con nosotros en nuestra linea de atencion al cliente al número (+39) 442 23 68
+              </p>
+
+            </section>
+
         </main>
       
-          <!-- And here is our main footer that is used across all the pages of our website -->
-      
-          <footer>
-            <p>Sitio Agencia Travel Partner desarrollado por Alahkdmovak Rua Cardona. Contacto: alahkdmovak.rua@udea.edu.co</p>
-          </footer>
+        <footer>
+          <p>Por Alahkdmovak Rua Cardona. <strong>Contacto: alahkdmovak.rua@udea.edu.co</strong></p>
+        </footer>
 
     </body>
 </html>

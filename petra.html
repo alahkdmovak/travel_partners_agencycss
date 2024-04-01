@@ -5,12 +5,27 @@
         <meta name="author" content="Alahkdmovak Rua Cardona" />
         <title>Travel partners - Petra</title>
         <link rel="icon" type="image/png" href="/favicon.png"/>
+        <link rel="stylesheet" type="text/css" href="styles/styles2.css">
     </head>
 
     <body>
       
         <header>
-            <nav>
+
+            <div class="image-container">
+                <figure>
+                    <img
+                    src="https://images.unsplash.com/photo-1580834341580-8c17a3a630ca?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Viajes en la montaña"
+                    height="450"
+                    width="auto"
+                    />
+                </figure>
+                <div class="titulo_principal"><h3>Petra</h3></div>
+            </div>
+
+            <nav class="contenedor-nav">
+                <h1>Travel Partners</h1>
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="luxor.html">Luxor</a></li>
@@ -22,94 +37,119 @@
                 </ul>
             </nav>
 
-            <h1>Petra</h1>    
-            
-            <figure>
-                <img
-                src="https://images.unsplash.com/photo-1580834341580-8c17a3a630ca?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Viajes en la montaña"
-                height="450"
-                width="auto"
-                 />
-                 <figcaption>
-                    Imagen Tomada de Unsplash.
-                 </figcaption>
-             </figure>
-
           </header>
         
-        <!-- Here is our page's main content -->
         <main>
 
-            <article>
-            
-                <section>
-                    <p>
-                        Petra es una antigua ciudad nabatea ubicada en el sur de Jordania, famosa por sus impresionantes estructuras talladas en roca, como el Tesoro y el Monasterio. Es un destino único que combina historia, arquitectura y belleza natural.
-                    </p>
-                </section>
+            <section class="contenido descripcion">
+                <h2>Descripciòn</h2>
+                <p class="primer-renglon">¡Bienvenido a Petra, la joya escondida del desierto que aguarda ser descubierta! Adéntrate en un mundo de misterio y maravilla mientras exploras las antiguas ruinas de esta ciudad perdida en el corazón 
+                    del desierto jordano.</p>
+                   
+                <p class="completo">
+                    Conocida como la "Ciudad Rosa", Petra te recibirá con sus impresionantes tumbas talladas en la roca, sus majestuosos templos 
+                    y su paisaje desértico único. Embárcate en un viaje a través del tiempo mientras te sumerges en la historia y la cultura de una 
+                    de las civilizaciones más fascinantes de la antigüedad. Prepárate para una experiencia inolvidable mientras descubres los secretos 
+                    que guarda esta maravilla arqueológica, ¡Petra te espera con los brazos abiertos!
+                </p>
 
-                <section>
-                    <h2>Atractivos para visitar</h2>
+                <input type="checkbox" id="btn" />
+                <label for="btn"></label>
 
-                    <ul>
-                        <li><a>El Tesoro (Al-Khazneh)</a></li>
-                        <li><a>El Monasterio (Ad-Deir)</a></li>
-                        <li><a>El Siq</a></li>
-                        <li><a>Tumba de los Obeliscos</a></li>
-                        <li><a>Teatro Romano</a></li>
-                    </ul>
-                </section>
+                <h2>Atractivos para visitar</h2>
 
-                <section>
-                    <iframe 
-                        width="560" 
-                        height="315" 
-                        src="https://www.youtube.com/embed/zqvAwRVb4Dg?si=dXeyGA6GbjgxANbZ" 
-                        title="YouTube video player" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        allowfullscreen>
-                    </iframe>
-                </section>
+                <ul>
+                    <li><a>El Tesoro (Al-Khazneh)</a></li>
+                    <li><a>El Monasterio (Ad-Deir)</a></li>
+                    <li><a>El Siq</a></li>
+                    <li><a>Tumba de los Obeliscos</a></li>
+                    <li><a>Teatro Romano</a></li>
+                </ul>
 
-                <section>
-                    <h2>Itinerario de 5 días y 4 noches:</h2>
-                    <ul>
-                        <li><a>Día 1: Exploración del Siq y visita al Tesoro al atardecer.</a></li>
-                        <li><a>Día 2: Excursión al Monasterio y caminata por los senderos de montaña cercanos.</a></li>
-                        <li><a>Día 3: Recorrido por las tumbas y el teatro romano, seguido de un paseo por el centro de Petra.</a></li>
-                        <li><a>Día 4: Día de descanso o excursión opcional al desierto de Wadi Rum.</a></li>
-                        <li><a>Día 5: Últimas vistas de Petra y despedida del sitio arqueológico.</a></li>
-                    </ul>
-                </section>
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/zqvAwRVb4Dg?si=dXeyGA6GbjgxANbZ" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </section>
 
-                <section>
-                    <h2>Costos de Viaje:</h2>
+            <section class="contenido Itinerario">
+                <h2>Itinerario de 5 días y 4 noches:</h2>
+                <ul>
+                    <li>
+                        <div class="titulo">
+                            <h4>Día 1: Exploración del Siq y visita al Tesoro al atardecer.</h4>
+                            <span class="expandible">
+                                <p>Emprende una emocionante aventura explorando el Siq, un estrecho desfiladero que te conducirá al corazón de Petra. Disfruta del espectacular paisaje natural mientras caminas por este cañón rocoso y admiras las impresionantes formaciones geológicas que lo rodean. Al atardecer, maravíllate con la majestuosidad del Tesoro, uno de los monumentos más icónicos de Petra, iluminado por los cálidos tonos del sol poniente. Deja que la magia de este lugar antiguo te transporte a través del tiempo y te deje sin aliento con su belleza incomparable.</p>
+                            </span>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="titulo">
+                            <h4>Día 2: Excursión al Monasterio y caminata por los senderos de montaña cercanos.</h4>
+                            <span class="expandible">
+                                <p>Embárcate en una emocionante excursión al Monasterio, uno de los tesoros ocultos de Petra ubicado en la cima de una colina. Disfruta de las impresionantes vistas panorámicas de la ciudad antigua mientras te maravillas con la arquitectura imponente de este magnífico edificio. Después, continúa tu aventura con una caminata por los senderos de montaña cercanos, donde podrás explorar cuevas, acantilados y paisajes impresionantes. Sumérgete en la belleza natural de Petra mientras descubres los secretos de esta antigua ciudad esculpida en la roca.</p>
+                            </span>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="titulo">
+                            <h4>Día 3: Recorrido por las tumbas y el teatro romano, seguido de un paseo por el centro de Petra.</h4>
+                            <span class="expandible">
+                                <p>Sumérgete en la rica historia de Petra con un recorrido por las tumbas excavadas en la roca, que cuentan la historia de la vida y la muerte en esta antigua ciudad. Visita el impresionante teatro romano, donde podrás imaginar la vida en Petra durante los tiempos del Imperio Romano. Después, date un paseo por el centro de Petra, donde encontrarás encantadores cafés, tiendas de recuerdos y oportunidades para interactuar con los lugareños. Disfruta de una experiencia auténtica mientras exploras la cultura y el patrimonio de esta ciudad milenaria.</p>
+                            </span>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="titulo">
+                            <h4>Día 4: Día de descanso o excursión opcional al desierto de Wadi Rum.</h4>
+                            <span class="expandible">
+                                <p>Aprovecha este día para relajarte y recargar energías después de explorar los tesoros de Petra. Disfruta de un día de descanso en un entorno tranquilo y contempla la belleza de tus alrededores. Si buscas más aventura, considera una emocionante excursión opcional al desierto de Wadi Rum, donde podrás disfrutar de un safari en jeep, paseos en camello y la oportunidad de contemplar las espectaculares formaciones rocosas y los paisajes desérticos. Sea cual sea tu elección, aprovecha al máximo tu tiempo en Petra y sus alrededores.</p>
+                            </span>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="titulo">
+                            <h4>Día 5: Últimas vistas de Petra y despedida del sitio arqueológico.</h4>
+                            <span class="expandible">
+                                <p>Disfruta de tus últimas vistas de Petra mientras te despides de este increíble sitio arqueológico. Aprovecha la mañana para explorar los rincones que te hayan quedado por descubrir y para capturar fotos finales de sus majestuosos monumentos y paisajes únicos. Luego, despídete de Petra con gratitud por las experiencias vividas y los recuerdos creados durante tu estancia. ¡Hasta la próxima, Petra, que tu legado perdure por siempre en nuestra memoria!</p>
+                            </span>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </section>
 
-                    <ul>
-                        <li><a>Para una persona: Entre $1500 y $2000 USD.</a></li>
-                        <li><a>Para dos personas: Entre $2500 y $3500 USD.</a></li>
-                    </ul>
+            <section class="contenido costos">
+                <h2>Costos de Viaje:</h2>
 
-                    <p>
-                        Estos precios incluyen alojamiento en hoteles de categoría media, transporte local y entre ciudades, comidas en restaurantes promedio y entradas a las principales atracciones turísticas.
-                    </p>
+                <ul>
+                    <li><a>Para una persona: Entre $1500 y $2000 USD.</a></li>
+                    <li><a>Para dos personas: Entre $2500 y $3500 USD.</a></li>
+                </ul>
 
-                    <p>
-                        Para adquirir nuestros servicos o para mayor informacion acerca de los planes de viaje, Comunicate con nosotros en nuestra linea de atencion al cliente al número (+39) 442 23 68
-                    </p>
+                <p>
+                    Estos precios incluyen alojamiento en hoteles de categoría media, transporte local y entre ciudades, comidas en restaurantes promedio y entradas a las principales atracciones turísticas.
+                </p>
 
-                </section>
+                <p>
+                    Para adquirir nuestros servicos o para mayor informacion acerca de los planes de viaje, Comunicate con nosotros en nuestra linea de atencion al cliente al número (+39) 442 23 68
+                </p>
 
-            </article>
-    
+            </section>
+
         </main>
       
-          <!-- And here is our main footer that is used across all the pages of our website -->
-      
         <footer>
-            <p>Sitio Agencia Travel Partner desarrollado por Alahkdmovak Rua Cardona. Contacto: alahkdmovak.rua@udea.edu.co</p>
+            <p>Por Alahkdmovak Rua Cardona. <strong>Contacto: alahkdmovak.rua@udea.edu.co</strong></p>
         </footer>
 
     </body>

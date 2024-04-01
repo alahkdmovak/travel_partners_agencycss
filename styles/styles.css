@@ -13,7 +13,6 @@ header {
     grid-row:1;
 }
 
-
 .hero-image img {
     position: absolute;
     top: 0;
@@ -24,7 +23,16 @@ header {
     z-index: -1; 
 }
 
-/* Estilos para la barra de navegación principal */
+.titulo_principal {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+
 .nav-container {
     display: flex;
     align-items: center; 
@@ -53,7 +61,8 @@ header {
 }
 
 .nav-container ul li a:hover {
-    text-decoration: underline; 
+    font-size: 120%;
+    font-weight: 750;
     cursor: pointer;
     color: white; 
 }
@@ -84,6 +93,7 @@ main {
     height: auto;
     border-radius: 10px;
     z-index: 0;
+    transition: opacity 0.5s;
 }
 
 .title_desc {
@@ -98,14 +108,19 @@ main {
 }
 
 .destino:hover .title_desc {
+    font-size: 300%;
     z-index: 1;
     opacity: 1; 
 }
+  
+.destino:hover img {
+    opacity: 0.5; /* Cambia la opacidad cuando se pasa el cursor sobre el contenedor */
+  }
 
 #titulo_destinos {
     display: flex;
-    align-items: center; /* Centra verticalmente los elementos */
-    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center;
+    justify-content: center; 
     grid-column:1/11;
     grid-row:1/4;
 }
@@ -159,7 +174,6 @@ aside {
     background-color: darkcyan;
 }
 
-/* Estilos para el footer */
 footer {
     grid-column:1/3;
     grid-row:3;
